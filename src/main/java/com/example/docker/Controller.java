@@ -14,9 +14,7 @@ public class Controller {
 
     @GetMapping("/hello")
     public String hello() {
-    	log.debug("Hello");
         return "Hello";
-
     }
 
 
