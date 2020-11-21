@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class Controller {
 
-	Logger log= LoggerFactory.getLogger(Controller.class);
-
     @GetMapping("/hello")
     public String hello() {
         return "Hello";
