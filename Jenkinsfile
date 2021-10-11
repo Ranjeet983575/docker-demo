@@ -14,7 +14,7 @@ pipeline {
                 bat "mvn test"
             }
         }
-        stage('Compile') {
+        stage('Build') {
             steps {
                 echo 'Building....'
                 bat "mvn package"
